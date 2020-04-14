@@ -1,0 +1,5 @@
+E:\Workspace\unityLearnWorkspace\myCodeRepository\CodeRepositoy for CS\CodeRepositoy for CS\bin\Debug\CodeRepositoy for CS.exe
+E:\Workspace\unityLearnWorkspace\myCodeRepository\CodeRepositoy for CS\CodeRepositoy for CS\bin\Debug\CodeRepositoy for CS.pdb
+E:\Workspace\unityLearnWorkspace\myCodeRepository\CodeRepositoy for CS\CodeRepositoy for CS\obj\Debug\CodeRepositoy for CS.csprojResolveAssemblyReference.cache
+E:\Workspace\unityLearnWorkspace\myCodeRepository\CodeRepositoy for CS\CodeRepositoy for CS\obj\Debug\CodeRepositoy for CS.exe
+E:\Workspace\unityLearnWorkspace\myCodeRepository\CodeRepositoy for CS\CodeRepositoy for CS\obj\Debug\CodeRepositoy for CS.pdb
