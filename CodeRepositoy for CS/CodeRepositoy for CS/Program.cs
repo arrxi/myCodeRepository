@@ -11,7 +11,8 @@ namespace CodeRepositoy_for_CS
 
         public static void Main(String[] args)
         {
-            SortTest();
+            //SortTest();
+            Console.WriteLine("hle".Mul(4));
             Console.ReadLine();
 
 
