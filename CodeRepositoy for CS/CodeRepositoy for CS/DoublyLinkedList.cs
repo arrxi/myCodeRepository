@@ -6,9 +6,9 @@ using System.Runtime;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeRepositoy_for_CS {
+namespace System.Collections.Generic {
 
-    public class DoublyLinkedList<T> {
+    public partial class DoublyLinkedList<T> {
         public Node<T> head;
         public Node<T> tail;
         public int count = 0;
@@ -234,16 +234,6 @@ namespace CodeRepositoy_for_CS {
                 throw new IndexOutOfRangeException();
             }
         }
-
-        //public IEnumerator<T> GetEnumerator()
-        //{
-        //    return new DoublyLinkedList<T>();
-        //}
-
-        //IEnumerator IEnumerable.GetEnumerator()
-        //{
-        //    yield return new DoublyLinkedList<T>();
-        //}
     }
 
     public class Node<T> {
@@ -262,85 +252,6 @@ namespace CodeRepositoy_for_CS {
         public Node<T> Last()
         {
             return parent;
-        }
-    }
-
-    public class DoubleList<T> : IEnumerable<T> {
-        private DoublyLinkedList<T> doublyLinkedList;
-
-        public DoubleList(DoublyLinkedList<T> doubleList)
-        {
-            doublyLinkedList = doubleList;
-        }
-
-        public IEnumerator<T> GetEnumerator()
-        {
-            return new ForeachEnumerator<T>(doublyLinkedList);
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return new ForeachEnumerator<T>(doublyLinkedList);
-        }
-    }
-
-    public class ForeachEnumerator<T> : IEnumerator<T> {
-        private DoublyLinkedList<T> Current = null;
-
-        private int index = -1;
-
-        public ForeachEnumerator(DoublyLinkedList<T> doublyLinkedList)
-        {
-            Current = doublyLinkedList;
-        }
-
-        T IEnumerator<T>.Current
-        {
-            get
-            {
-                if (index >= 0 && index < Current.count)
-                {
-                    return Current.GetAt(index).data;
-                }
-                else
-                {
-                    throw new IndexOutOfRangeException();
-                }
-            }
-        }
-
-        object IEnumerator.Current
-        {
-            get
-            {
-                if (index >= 0 && index < Current.count)
-                {
-                    return Current.GetAt(index).data;
-                }
-                else
-                {
-                    throw new IndexOutOfRangeException();
-                }
-            }
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public bool MoveNext()
-        {
-            if (index + 1 < Current.count)
-            {
-                index++;
-                return true;
-            }
-            return false;
-        }
-
-        public void Reset()
-        {
-            index = -1;
         }
     }
 }

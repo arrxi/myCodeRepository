@@ -16,28 +16,39 @@ namespace CodeRepositoy_for_CS {
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// 双向链表测试函数
+        /// </summary>
         public static void TestLinkedListD()
         {
-            DoublyLinkedList<Ixl> linklist = new DoublyLinkedList<Ixl>();
+            DoublyLinkedList<TestClass> linklist = new DoublyLinkedList<TestClass>();
             for (int i = 0; i < 10; i++)
             {
-                linklist.Add(new Ixl());
+                linklist.Add(new TestClass());
             }
             Console.WriteLine(linklist.count);
-
+            Console.WriteLine();
             //for (int i = 0; i < 10; i++)
             //{
             //    Console.WriteLine(linklist.GetAt(i).data.t);
             //}
 
-            DoubleList<Ixl> doubeList = new DoubleList<Ixl>(linklist);
-
-            foreach (Ixl ixl in doubeList)
+            foreach (TestClass ixl in linklist)
             {
                 Console.WriteLine(ixl.t);
             }
+            Console.WriteLine();
+
+            foreach (TestClass ixl in linklist)
+            {
+                Console.WriteLine(ixl.t);
+            }
+            Console.WriteLine();
         }
 
+        /// <summary>
+        /// 排序测试函数
+        /// </summary>
         public static void SortTest()
         {
             Random rd = new Random();
@@ -58,11 +69,14 @@ namespace CodeRepositoy_for_CS {
         }
     }
 
-    internal class Ixl {
+    /// <summary>
+    ///测试类
+    /// </summary>
+    internal class TestClass {
         private static Random rd = new Random();
         public int t;
 
-        public Ixl()
+        public TestClass()
         {
             t = rd.Next(100);
         }
