@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace System.Collections.Generic {
+﻿namespace System.Collections.Generic {
 
     public partial class DoublyLinkedList<T> {
         public Node<T> head;

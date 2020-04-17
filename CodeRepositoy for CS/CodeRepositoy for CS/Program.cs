@@ -43,7 +43,8 @@ namespace CodeRepositoy_for_CS {
             {
                 Console.WriteLine(ixl.t);
             }
-            Console.WriteLine();
+            Console.WriteLine("----------------");
+            Console.WriteLine("第{0}个元素：{1}", 4, linklist[12]);
         }
 
         /// <summary>

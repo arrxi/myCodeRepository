@@ -50,7 +50,6 @@ namespace System.Collections.Generic {
 
             public void Dispose()
             {
-                Console.WriteLine("dispose");
                 currentNode = null;
             }
 
@@ -80,7 +79,6 @@ namespace System.Collections.Generic {
             /// </summary>
             public void Reset()
             {
-                Console.WriteLine("reset");
                 currentNode = null;
             }
         }
