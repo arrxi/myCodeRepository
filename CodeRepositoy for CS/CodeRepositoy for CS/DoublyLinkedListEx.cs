@@ -14,7 +14,7 @@ namespace System.Collections.Generic {
         {
             get
             {
-                return GetAt(index).data;
+                return SelectAt(index).data;
             }
         }
 

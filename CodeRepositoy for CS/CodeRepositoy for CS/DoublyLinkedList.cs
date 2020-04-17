@@ -182,7 +182,7 @@ namespace System.Collections.Generic {
             }
         }
 
-        public Node<T> GetAt(int index)
+        private Node<T> SelectAt(int index)
         {
             if (count > index)
             {
