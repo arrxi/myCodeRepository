@@ -24,6 +24,18 @@ namespace CodeRepositoy_for_CS {
                 linklist.Add(new Ixl());
             }
             Console.WriteLine(linklist.count);
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(linklist.GetAt(i).data.t);
+            //}
+
+            DoubleList<Ixl> doubeList = new DoubleList<Ixl>(linklist);
+
+            foreach (Ixl ixl in doubeList)
+            {
+                Console.WriteLine(ixl.t);
+            }
         }
 
         public static void SortTest()
