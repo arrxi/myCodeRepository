@@ -6,7 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace System.Collections.Generic {
-
+    /// <summary>
+    /// 自定义双向列表的foreach索引
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public partial class DoublyLinkedList<T> : IEnumerable<T> {
         private ForeachEnum1 foreache;
 
@@ -37,7 +40,7 @@ namespace System.Collections.Generic {
         }
 
         public class ForeachEnum1 : IEnumerator<T> {
-            public T Current { get => currentNode == null ? default(T) : currentNode.data; }
+            public T Current { get { return currentNode == null ? default(T) : currentNode.data; } }
 
             object IEnumerator.Current { get; }
             private Node<T> currentNode { get; set; }

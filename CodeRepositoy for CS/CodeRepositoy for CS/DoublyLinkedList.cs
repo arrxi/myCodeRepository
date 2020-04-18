@@ -93,7 +93,21 @@
             }
             count++;
         }
-
+        public void Add(Node<T> node)
+        {
+            if (head==null)
+            {
+                head = node;
+                tail = head;
+            }
+            else
+            {
+                node.parent = tail;
+                node.parent.child = node;
+                tail = node;
+            }
+            count++;
+        }
         /// <summary>
         /// 删除尾节点
         /// </summary>
@@ -229,9 +243,9 @@
     }
 
     public class Node<T> {
-        public bool IsStart { get => parent == null ? true : false; }
+        public bool IsStart { get { return parent == null ? true : false; } }
 
-        public bool IsEnd { get => child == null ? true : false; }
+        public bool IsEnd { get { return child == null ? true : false; } }
         public Node<T> parent;
         public Node<T> child;
         public T data;
