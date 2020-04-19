@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0d9ebda-e436-4dbb-8183-88fcc5e69ee1" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodeRepositoy for CS/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <marker date="1587122682661" expanded="true" signature="6:115" ph="..." />
+                <marker date="1587122682661" expanded="true" signature="148:2327" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="176:2090" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="225:381" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="248:308" ph="/* SortTest(); ... */" />
+                <marker date="1587122682661" expanded="true" signature="391:448" ph="/// 双向链表测试函数 ... " />
+                <marker date="1587122682661" expanded="true" signature="493:1318" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="630:705" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="798:923" ph="/* for (int i = 0; i &lt; 10; i++) ... */" />
+                <marker date="1587122682661" expanded="true" signature="972:1042" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="1124:1194" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="1328:1383" ph="/// 排序测试函数 ... " />
+                <marker date="1587122682661" expanded="true" signature="1421:2084" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="1556:1671" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="1717:1881" ph="/* SortHelper.InsertSort(list, 0, list.Count - 1, (a, b) =&gt; { return a - b; }); ... */" />
+                <marker date="1587122682661" expanded="true" signature="1999:2074" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="2096:2139" ph="///测试类 ... " />
+                <marker date="1587122682661" expanded="true" signature="2169:2325" ph="{...}" />
+                <marker date="1587122682661" expanded="true" signature="2269:2319" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoublyLinkedList.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeRepositoy for CS/DoublyLinkedList.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <marker date="1587125930218" expanded="true" signature="37:6489" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="85:6060" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="218:1020" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="259:885" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="349:846" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="440:803" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="902:1010" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="1076:1488" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="1268:1381" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="1398:1456" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="1545:1970" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="1755:1863" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="1880:1938" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="1980:2075" ph="/// 在链表尾端添加元素 ... " />
+                <marker date="1587125930218" expanded="true" signature="2104:2485" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="2144:2252" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="2269:2454" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="2523:2830" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="2561:2647" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="2664:2799" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="2839:2893" ph="/// 删除尾节点 ... " />
+                <marker date="1587125930218" expanded="true" signature="2922:3184" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="2960:3084" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="3101:3174" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="3226:3683" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="3266:3371" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="3404:3510" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="3527:3652" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="3693:3791" ph="/// 返回并删除尾节点 ，为空时候返回空 ... " />
+                <marker date="1587125930218" expanded="true" signature="3814:4131" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="3852:4041" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4058:4121" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4141:4230" ph="/// 返回并删除头节点 ... " />
+                <marker date="1587125930218" expanded="true" signature="4259:4644" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4297:4360" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4377:4634" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4486:4562" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4689:5241" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4730:5132" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4828:5090" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4882:4962" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="4987:5072" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="5149:5231" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="5251:5349" ph="///删除固定索引的元素 ... " />
+                <marker date="1587125930218" expanded="true" signature="5389:6054" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="5430:5945" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="5520:5931" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="5611:5913" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="5962:6044" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="6087:6487" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="6357:6403" ph="{...}" />
+                <marker date="1587125930218" expanded="true" signature="6434:6481" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CodeRepositoy for CS/DoublyLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeRepositoy for CS/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="298" />
+    <option name="y" value="130" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CodeRepositoy for CS (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CodeRepositoy for CS (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CodeRepositoy for CS" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0d9ebda-e436-4dbb-8183-88fcc5e69ee1" name="Default" comment="" />
+      <created>1587223995972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587223995972</updated>
+      <workItem from="1587224000140" duration="485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="485000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CodeRepositoy for CS/DoublyLinkedList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <marker date="1587125930218" expanded="true" signature="37:6489" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="85:6060" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="218:1020" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="259:885" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="349:846" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="440:803" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="902:1010" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="1076:1488" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="1268:1381" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="1398:1456" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="1545:1970" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="1755:1863" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="1880:1938" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="1980:2075" ph="/// 在链表尾端添加元素 ... " />
+            <marker date="1587125930218" expanded="true" signature="2104:2485" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="2144:2252" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="2269:2454" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="2523:2830" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="2561:2647" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="2664:2799" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="2839:2893" ph="/// 删除尾节点 ... " />
+            <marker date="1587125930218" expanded="true" signature="2922:3184" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="2960:3084" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="3101:3174" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="3226:3683" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="3266:3371" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="3404:3510" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="3527:3652" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="3693:3791" ph="/// 返回并删除尾节点 ，为空时候返回空 ... " />
+            <marker date="1587125930218" expanded="true" signature="3814:4131" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="3852:4041" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4058:4121" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4141:4230" ph="/// 返回并删除头节点 ... " />
+            <marker date="1587125930218" expanded="true" signature="4259:4644" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4297:4360" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4377:4634" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4486:4562" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4689:5241" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4730:5132" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4828:5090" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4882:4962" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="4987:5072" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="5149:5231" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="5251:5349" ph="///删除固定索引的元素 ... " />
+            <marker date="1587125930218" expanded="true" signature="5389:6054" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="5430:5945" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="5520:5931" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="5611:5913" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="5962:6044" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="6087:6487" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="6357:6403" ph="{...}" />
+            <marker date="1587125930218" expanded="true" signature="6434:6481" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeRepositoy for CS/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1587122682661" expanded="true" signature="6:115" ph="..." />
+            <marker date="1587122682661" expanded="true" signature="148:2327" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="176:2090" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="225:381" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="248:308" ph="/* SortTest(); ... */" />
+            <marker date="1587122682661" expanded="true" signature="391:448" ph="/// 双向链表测试函数 ... " />
+            <marker date="1587122682661" expanded="true" signature="493:1318" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="630:705" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="798:923" ph="/* for (int i = 0; i &lt; 10; i++) ... */" />
+            <marker date="1587122682661" expanded="true" signature="972:1042" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="1124:1194" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="1328:1383" ph="/// 排序测试函数 ... " />
+            <marker date="1587122682661" expanded="true" signature="1421:2084" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="1556:1671" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="1717:1881" ph="/* SortHelper.InsertSort(list, 0, list.Count - 1, (a, b) =&gt; { return a - b; }); ... */" />
+            <marker date="1587122682661" expanded="true" signature="1999:2074" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="2096:2139" ph="///测试类 ... " />
+            <marker date="1587122682661" expanded="true" signature="2169:2325" ph="{...}" />
+            <marker date="1587122682661" expanded="true" signature="2269:2319" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
